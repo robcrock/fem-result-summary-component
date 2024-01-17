@@ -70,12 +70,12 @@ export default function Home() {
                 </p>
               </li>
             </ul>
-            <button className="font-xl text-body h-14 w-full rounded-[32px] bg-neutral-dark-gray-blue p-4 text-neutral-white">
+            <Button className="font-xl text-body h-14 w-full rounded-[32px] bg-neutral-dark-gray-blue p-4 text-neutral-white hover:bg-neutral-dark-gray-blue/90 active:bg-neutral-dark-gray-blue">
               Continue
-            </button>
+            </Button>
           </div>
         </div>
-        <div className="mt-2 w-full bg-transparent text-center text-sm text-neutral-dark-gray-blue/50">
+        <div className="mt-4 w-full bg-transparent text-center text-sm text-neutral-dark-gray-blue/50">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor

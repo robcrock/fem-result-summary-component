@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "@next/font/local";
+import { cn } from "@/lib/utils";
 const hankenGrotesk = localFont({
   src: "../public/assets/fonts/HankenGrotesk-VariableFont_wght.ttf",
 });
@@ -18,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${hankenGrotesk.className} min-h-[100dvh] min-w-[100dvw] bg-neutral-pale-blue`}
+        className={cn(
+          "bg-background min-h-[100dvh] min-w-[100dvw] bg-neutral-pale-blue font-sans antialiased",
+          hankenGrotesk.className,
+        )}
       >
         {children}
       </body>
