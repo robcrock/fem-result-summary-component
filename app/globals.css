@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-heading-xl {
+  @apply text-[72px] font-extrabold;
+}
+
+.text-heading-l {
+  @apply text-2xl font-bold;
+}
+
+.text-heading-m {
+  @apply text-[24px] font-medium;
+}
+
+.text-body {
+  @apply text-[18px] font-bold;
+}
