@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "bg-background min-h-[100dvh] min-w-[100dvw] bg-neutral-pale-blue font-sans antialiased",
+          "bg-background flex min-h-[100dvh] min-w-[100dvw] items-center justify-center bg-neutral-pale-blue font-sans antialiased",
           hankenGrotesk.className,
         )}
       >

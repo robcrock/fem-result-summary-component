@@ -24,10 +24,10 @@ const config = {
     extend: {
       colors: {
         primary: {
-          "light-red": "hsl(0,100%, 67%)",
-          "orangey-yellow": "hsl(39,100%, 56%)",
-          "green-teal": "hsl(166,100%, 37%)",
-          "cobalt-blue": "hsl(234,85%, 45%)",
+          "fem-red": "hsl(0,100%, 67%)",
+          "fem-orange": "hsl(39,100%, 56%)",
+          "fem-green": "hsl(166,100%, 37%)",
+          "fem-blue": "hsl(234,85%, 45%)",
         },
         neutral: {
           white: "hsl(0, 0%, 100%)",
